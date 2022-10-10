@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "hda-typo3/hda-elements": "dev-master",
+    "hda-typo3/hda-elements": "dev-main",
     "typo3/cms-core": "^10.4 || ^11.5"
   },
   "autoload": {
