@@ -1,7 +1,7 @@
 {
   "name": "hda-typo3/hda_elements",
   "type": "typo3-cms-extension",
-  "description": "Hda Elements Installation",
+  "description": "Hda - Elements Installation",
   "authors": [
     {
       "name": "Michael Lang",
@@ -14,12 +14,6 @@
     "TYPO3",
     "extension",
     "hda"
-  ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": git@github.com:hda-typo3/hda_elements.git
-    }
   ],
   "require": {
     "hda-typo3/hda-elements": "dev-master",
