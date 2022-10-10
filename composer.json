@@ -1,0 +1,31 @@
+{
+  "name": "t3achda-elements",
+  "type": "typo3-cms-extension",
+  "description": "Hda Elements Installation",
+  "authors": [
+    {
+      "name": "Michael Lang",
+      "role": "Developer",
+      "email": "michael.lang@h-da.de"
+    }
+  ],
+  "license": ["GPL-2.0-or-later"],
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "hda"
+  ],
+  "require": {
+    "typo3/cms-core": "^10.4 || ^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+        "Hda\\HdaElements\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "hda_elements"
+    }
+  }
+}
