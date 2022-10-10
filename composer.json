@@ -1,5 +1,5 @@
 {
-  "name": "hda-typo3/hda-elements",
+  "name": "hda-typo3/hda_elements",
   "type": "typo3-cms-extension",
   "description": "Hda Elements Installation",
   "authors": [
@@ -17,22 +17,12 @@
   ],
   "repositories": [
     {
-      "type": "typo3-cms-extension",
-      "package": {
-        "name": "hda-typo3/hda_elements",
-        "source": {
-          "type" : "git",
-          "url" : "https://github.com/hda-typo3/hda_elements.git",
-          "reference" : "main"
-        },
-        "dist": {
-          "url": "https://github.com/hda-typo3/hda_elements/archive/refs/heads/main.zip",
-          "type": "zip"
-        }
-      }
+      "type": "vcs",
+      "url": git@github.com:hda-typo3/hda_elements.git
     }
   ],
   "require": {
+    "hda-typo3/hda-elements": "dev-master",
     "typo3/cms-core": "^10.4 || ^11.5"
   },
   "autoload": {
