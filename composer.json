@@ -21,10 +21,6 @@
       "url": "git@github.com:hda-typo3/hda_elements.git"
     }
   ],
-  "require": {
-    "hda-typo3/hda-elements": "dev-main",
-    "typo3/cms-core": "^10.4 || ^11.5"
-  },
   "autoload": {
     "psr-4": {
         "Hda\\HdaElements\\": "Classes/"
