@@ -16,14 +16,9 @@
     "hda"
   ],
   "require": {
+    "php": ">=8.0.0",
     "typo3/cms-core": "^12.4-"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:hda-typo3/hda_elements.git"
-    }
-  ],
   "autoload": {
     "psr-4": {
         "Hda\\HdaElements\\": "Classes/"
