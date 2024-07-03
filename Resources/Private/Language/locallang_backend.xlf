@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-09-22T11:44:12Z" product-name="hda_elements">
+		<header/>
+		<body>
+			
+			<trans-unit id="button.description">
+			     <source>Create a simple styled Link</source>
+		    </trans-unit>
+			<trans-unit id="infobox.description">
+			     <source>Create a simple infobox</source>
+		    </trans-unit>				
+		</body>
+	</file>
+</xliff>

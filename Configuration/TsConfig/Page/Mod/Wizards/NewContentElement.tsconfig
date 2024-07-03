@@ -1,0 +1,22 @@
+mod.wizards.newContentElement.wizardItems {
+    common.elements {
+        hda_buttonbox {
+            iconIdentifier = buttonbox_icon
+            title = Buttonbox
+            description = LLL:EXT:hda_elements/Resources/Private/Language/locallang_backend.xlf:button.description
+            tt_content_defValues {
+                CType = hda_buttonbox
+            }
+        } 
+        hda_infobox {
+            iconIdentifier = infobox_icon
+            title = Infobox
+            description = LLL:EXT:hda_elements/Resources/Private/Language/locallang_backend.xlf:infobox.description 
+            tt_content_defValues {
+                CType = hda_infobox
+            }
+        }       
+         
+    }
+    common.show := addToList(hda_buttonbox,hda_infobox)
+}

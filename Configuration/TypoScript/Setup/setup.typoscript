@@ -1,0 +1,24 @@
+tt_content.hda_buttonbox =< lib.contentElement
+tt_content.hda_buttonbox {
+	templateName = Buttonbox
+	templateRootPaths.0 = EXT:hda_elements/Resources/Private/Templates
+	dataProcessing {
+		10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+		10.references.fieldName = assets
+	}
+}
+	
+tt_content.hda_infobox =< lib.contentElement
+tt_content.hda_infobox {
+	templateName = Infobox
+	templateRootPaths.0 = EXT:hda_elements/Resources/Private/Templates
+	dataProcessing {
+		10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+		10.references.fieldName = assets
+	}
+}
+
+page.includeCSS{
+	scsshdaElemets				= EXT:hda_elements/Resources/Public/Sass/_hdaElements.scss
+	scsshdaElemets.if.isTrue	= {$page.scss.scsshdaElemets}	
+}
