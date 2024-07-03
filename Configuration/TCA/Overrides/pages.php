@@ -1,5 +1,8 @@
 <?php
-defined('TYPO3_MODE') or die();
+defined('TYPO3_MODE') || defined('TYPO3') || die('Access denied.');
 
-
-@import 'EXT:hda_elements/Configuration/TsConfig/Page/Mod/Wizards/NewContentElement.tsconfig'
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+    'hda_elements', 
+		'Configuration/TypoScript/Setup', 
+		'HDA-Elements'
+);
