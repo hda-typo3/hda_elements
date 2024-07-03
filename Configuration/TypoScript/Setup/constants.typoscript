@@ -1,6 +1,0 @@
-page{
-	scss {
-		# cat =t3up: scss/extensions/120;  type =options[,active]; label =hda elements - Scss
-		scsshdaElemets	= active
-	}
-}
