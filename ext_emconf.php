@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY]  = array (
 	'category' 			=> 'templates',
 	'author' 			=> 'Michael Lang',
 	'author_email' 		=> 'michael.lang@h-da.de',
-	'version'           => '11.0.0',
+	'version'           => '12.0.0',
   	'author_company' 	=> 'h_da',
   	'state' 			=> 'alpha',
     'uploadfolder'    	=> false,
@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY]  = array (
     array (
         'depends' =>
         array (
-            'typo3' => '11.5-',
+            'typo3' => '12.4-',
         ),
         'conflicts' =>
         array (

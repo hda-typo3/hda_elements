@@ -15,6 +15,9 @@
     "extension",
     "hda"
   ],
+  "require": {
+    "typo3/cms-core": "^12.4-"
+  },
   "repositories": [
     {
       "type": "vcs",
