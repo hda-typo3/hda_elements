@@ -5,15 +5,19 @@
 		<body>
 			<trans-unit id="hda_buttonbox_title">
 				<source>Buttonbox - Title</source>
+				<target state="translated">Buttonbox Titel</target>
 			</trans-unit>
 			<trans-unit id="hda_buttonbox_description">
 				<source>Buttonbox - Description</source>
+				<target state="translated">Buttonbox Beschreibung</target>
 			</trans-unit>
 			<trans-unit id="hda_infobox_title">
 				<source>Infobox - Title</source>
+				<target state="translated">Infoboxbox Titel</target>
 			</trans-unit>
 			<trans-unit id="hda_infobox_description">
 				<source>Infobox - Description</source>
+				<target state="translated">Infobox Beschreibung</target>
 			</trans-unit>
 		</body>			
 	</file>
