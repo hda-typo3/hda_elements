@@ -10,14 +10,14 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY]  = array (
-  	'title' 			=> 'HDA - Elements',
+  	'title' 		=> 'HDA - Elements',
   	'description' 		=> 'A buttonbox for the h_da',
-	'category' 			=> 'templates',
-	'author' 			=> 'Michael Lang',
+	'category' 		=> 'templates',
+	'author' 		=> 'Michael Lang',
 	'author_email' 		=> 'michael.lang@h-da.de',
-	'version'           => '12.0.0',
+	'version'           => '11.0.0',
   	'author_company' 	=> 'h_da',
-  	'state' 			=> 'alpha',
+  	'state' 		=> 'stable',
     'uploadfolder'    	=> false,
     'createDirs'       	=> '',
     'clearCacheOnLoad' 	=> true,
@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY]  = array (
     array (
         'depends' =>
         array (
-            'typo3' => '12.4-',
+            'typo3' => '11.5-',
         ),
         'conflicts' =>
         array (
