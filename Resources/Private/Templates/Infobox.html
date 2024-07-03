@@ -1,7 +1,7 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 
    <div id="c{data.uid}" class="w-100 frame-{data.CType} {f:if(condition: data.space_before_class, then:'frame-space-before-{data.space_before_class}')} {f:if(condition: data.space_after_class, then:'frame-space-after-{data.space_after_class}')}">   
-	    <span class="h3 d-block"><f:link.typolink parameter="{data.header_link}"><f:format.nl2br>{data.header}</f:format.nl2br></f:link.typolink></span>
+	    <span class="d-block"><f:link.typolink class="h3" parameter="{data.header_link}"><f:format.nl2br>{data.header}</f:format.nl2br></f:link.typolink></span>
 	    <f:format.html>{data.bodytext}</f:format.html>
     </div>
 

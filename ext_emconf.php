@@ -1,12 +1,7 @@
 <?php
 
 /***************************************************************
- * Extension Manager/Repository config file for ext "hda_buttonbox".
- *
- 
- * Manual updates:
- * Only the data in the array - everything else is removed by next
- * writing. "version" and "dependencies" must not be touched!
+ * Extension Manager/Repository config file for ext "hda_elements".
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY]  = array (
@@ -15,7 +10,7 @@ $EM_CONF[$_EXTKEY]  = array (
     'category' 		=> 'templates',
     'author' 		=> 'Michael Lang',
     'author_email' 		=> 'michael.lang@h-da.de',
-    'version'           => '12.0.0',
+    'version'           => '11.0.0',
     'author_company' 	=> 'h_da',
     'state' 		=> 'stable',
     'uploadfolder'    	=> false,
