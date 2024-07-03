@@ -4,6 +4,10 @@ defined('TYPO3') || die('Access denied.');
 
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
+    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:hda_elements/Configuration/TsConfig/Page/Mod/Wizards/NewContentElement.tsconfig">'
+);
+
 call_user_func(static function () {
 
     $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
@@ -21,5 +25,6 @@ call_user_func(static function () {
         \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
         ['source' => 'EXT:hda_elements/Resources/Public/Icons/infobox.svg']
     );
-    
+
+	
 });
