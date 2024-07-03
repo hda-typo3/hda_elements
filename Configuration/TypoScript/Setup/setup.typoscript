@@ -19,6 +19,6 @@ tt_content.hda_infobox {
 }
 
 page.includeCSS{
-	scsshdaElemets				= EXT:hda_elements/Resources/Public/Sass/_hdaElements.scss
-	scsshdaElemets.if.isTrue	= {$page.scss.scsshdaElemets}	
+	scsshdaElements				= EXT:hda_elements/Resources/Public/Sass/_hdaElements.scss
+	scsshdaElements.if.isTrue	= {$page.scss.scsshdaElements}	
 }
