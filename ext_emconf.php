@@ -5,8 +5,8 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY]  = array (
-    'title' 		=> 'HDA - Elements',
-    'description' 		=> 'A buttonbox for the h_da',
+    'title' 		=> 'h_da - Elements',
+    'description' 		=> '2 contentelements for the h_da',
     'category' 		=> 'templates',
     'author' 		=> 'Michael Lang',
     'author_email' 		=> 'michael.lang@h-da.de',
